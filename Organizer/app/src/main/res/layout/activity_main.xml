@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.np_app.paul.organizer.MainActivity"
+    >
+
+
+    <FrameLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hier könnte Ihre Werbung stehen !" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            >
+
+            <Button
+                android:id="@+id/FotoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Foto"
+                />
+
+
+            <Button
+                android:id="@+id/AudioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Audio" />
+
+            <Button
+                android:id="@+id/NotizButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notiz"/>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
